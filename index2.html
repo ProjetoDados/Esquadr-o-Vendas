@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatório Semanal - Esquadrão de Vendas</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .bg {
+      background-image: url('https://i.imgur.com/ZKzutV9.jpeg' );
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 600px;
+      position: relative;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .overlay {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      background-color: rgba(0, 29, 0, 0.9);
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .botao {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #00F106;
+      color: rgb(12, 12, 12);
+      padding: 24px 48px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .botao:hover {
+      background-color: #00d105;
+      transform: scale(1.05);
+    }
+    .instrucoes {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+    .instrucoes h2 {
+      color: #001D00;
+    }
+    @media only screen and (max-width: 600px) {
+      body, html {
+        margin: 0;
+      }
+      .container {
+        padding: 10px;
+      }
+      .bg {
+        height: 500px;
+      }
+      .overlay {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        max-width: none;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bg">
+      <div class="overlay">
+        <h1>Relatório Semanal - Esquadrão de Vendas</h1>
+        <p>Olá! O relatório da semana está disponível.</p>
+        <p>Você pode acessá-lo clicando no botão abaixo:</p>
+        <a href="https://drive.google.com/drive/folders/1TcjcbfxsBxdctl_2Ev1es3dYBxkLWehn?usp=sharing" class="botao" target="_blank" rel="noopener noreferrer">Acessar no Power BI</a>
+      </div>
+    </div>
+    
+    <div class="instrucoes">
+      <h2>Instruções para acesso</h2>
+      <p>Se estiver com problemas para acessar o relatório, verifique:</p>
+      <ol>
+        <li>Certifique-se de estar conectado à sua conta Google que tem permissão para acessar o arquivo.</li>
+        <li>Se aparecer uma mensagem de "Sem acesso", solicite permissão ao administrador do documento.</li>
+        <li>Para melhor visualização, recomendamos usar navegadores como Chrome, Firefox ou Edge atualizados.</li>
+      </ol>
+      <p>Em caso de dúvidas, entre em contato com o administrador do sistema.</p>
+    </div>
+  </div>
+</body>
+</html>
